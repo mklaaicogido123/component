@@ -1,24 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import BT3SideBar from "./BT3/BT3SideBar";
+import BT3content from "./BT3/BT3content";
+import BT3header from "./BT3/BT3header";
+import BT3Footer from "./BT3/BT3Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BT3header></BT3header>
+      {/* <BT3SideBar></BT3SideBar> */}
+      <BT3content></BT3content>
+      <BT3Footer></BT3Footer>
     </div>
   );
 }
