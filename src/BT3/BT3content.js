@@ -13,6 +13,8 @@ export default class BT3content extends Component {
           <BT3ProductList></BT3ProductList>
           <BT3ProductList></BT3ProductList>
           <BT3ProductList></BT3ProductList>
+          <BT3ProductList></BT3ProductList>
+          <BT3ProductList></BT3ProductList>
         </div>
       </div>
     );

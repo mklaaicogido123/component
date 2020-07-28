@@ -11,7 +11,17 @@ function App() {
     <div className="App">
       <BT3header></BT3header>
       {/* <BT3SideBar></BT3SideBar> */}
-      <BT3content></BT3content>
+      <div className="container">
+        <div className="row">
+          <div className="col-2">
+            <BT3SideBar></BT3SideBar>{" "}
+          </div>
+          <div className="col-10">
+            <BT3content></BT3content>{" "}
+          </div>
+        </div>
+      </div>
+
       <BT3Footer></BT3Footer>
     </div>
   );

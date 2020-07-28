@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class BT3ProductList extends Component {
   render() {
     return (
-      <div className="col-lg-3 col-md-6 mb-4">
+      <div className="col-lg-4 col-md-6 mb-4">
         <div className="card h-100">
           <img className="card-img-top" src="http://placehold.it/500x325" alt />
           <div className="card-body">
