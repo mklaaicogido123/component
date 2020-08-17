@@ -1,28 +1,13 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import BT3SideBar from "./BT3/BT3SideBar";
-import BT3content from "./BT3/BT3content";
-import BT3header from "./BT3/BT3header";
-import BT3Footer from "./BT3/BT3Footer";
+import Tixvn from "./tix-react/Tixvn";
+import BaiTapBurger from "./Burger/BaiTapBurger";
 
 function App() {
   return (
     <div className="App">
-      <BT3header></BT3header>
-      {/* <BT3SideBar></BT3SideBar> */}
-      <div className="container">
-        <div className="row">
-          <div className="col-2">
-            <BT3SideBar></BT3SideBar>{" "}
-          </div>
-          <div className="col-10">
-            <BT3content></BT3content>{" "}
-          </div>
-        </div>
-      </div>
-
-      <BT3Footer></BT3Footer>
+      {/* <Tixvn></Tixvn> */}
+      <BaiTapBurger></BaiTapBurger>
     </div>
   );
 }

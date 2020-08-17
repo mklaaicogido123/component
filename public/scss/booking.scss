@@ -1,0 +1,21 @@
+@import "../components/header";
+@import "../components/_chedule";
+
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.movie {
+  background: url(../img/a232f37b6fd35319f4eae25e435a5a91.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer {
+  background-color: #222222;
+  color: white;
+  &__infoFooter {
+    width: 80%;
+    margin: auto;
+  }
+}

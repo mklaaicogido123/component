@@ -1,0 +1,23 @@
+.news{
+    padding-top: 100px;
+    &__topic{
+      width: 50%;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      
+    }
+    &__content{
+      width: 80%;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      &__news{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 30px;
+      }
+    }
+  }

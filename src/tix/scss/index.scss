@@ -1,0 +1,25 @@
+@import "../helper/theme";
+@import "../components/header";
+@import "../components/_carousel";
+@import "../components/_chedule";
+@import "../components/_news";
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.footer{
+  background-color: #222222;
+  color: white;
+  &__infoFooter{
+    width: 80%;
+    margin: auto;
+  }
+}
+
+
+
+
+
+
+

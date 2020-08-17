@@ -1,0 +1,46 @@
+.header {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    &__logo {
+      img {
+        margin: 10%;
+        width: 70%;
+        height: 70%;
+      }
+    }
+    &__center {
+      margin: auto;
+      font-weight: bold;
+      a {
+        margin: 20px;
+      }
+    }
+    &__account {
+      height: 100%;
+      a {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+    &__location {
+      height: 80%;
+      border-left: 1px grey solid;
+    }
+    @media screen and (max-width: 760px) {
+      &__center {
+        display: none;
+      }
+      &__location {
+        display: none;
+      }
+    }
+  }
